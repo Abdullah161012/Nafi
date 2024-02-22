@@ -6,16 +6,10 @@
     <title>Spread Love</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
-            animation: changeColor 10s infinite alternate;
-        }
-        @keyframes changeColor {
-            0% { background: linear-gradient(to bottom, #ffafbd, #ffc3a0); }
-            50% { background: linear-gradient(to bottom, #c8d6e5, #dfe9f3); }
-            100% { background: linear-gradient(to bottom, #ffafbd, #ffc3a0); }
         }
         header {
             background-color: #e74c3c;
@@ -30,21 +24,10 @@
         .heart {
             color: #e74c3c;
             font-size: 100px;
-            animation: pulseHeart 1.5s infinite alternate;
-        }
-        @keyframes pulseHeart {
-            0% { transform: scale(1); }
-            100% { transform: scale(1.2); }
         }
         .character {
             max-width: 200px;
             margin-top: 20px;
-            animation: bounceCharacter 2s infinite;
-        }
-        @keyframes bounceCharacter {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0); }
         }
         footer {
             background-color: #e74c3c;
